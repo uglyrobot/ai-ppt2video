@@ -1,6 +1,6 @@
-# PPT Presenter
+# AI Powerpoint to Video
 
-PPT Presenter converts a `.pptx` file to a video, and read out speaker's notes along slides using text to speech technique.
+Takes a `.pptx` file as input, then uses GPT-4 vision + any embedded speaker notes to write a transcript for the whole presentation. Finally it uses OpenAI's TTS to create a believable audio track, and compile the whole slide show as a video.
 
 ## Usage
 
@@ -13,7 +13,12 @@ cd ppt_presenter
 ```
 pip install -r requirements.txt
 ```
-* You also need [`ffmpeg`](https://github.com/adaptlearning/adapt_authoring/wiki/Installing-FFmpeg)
-* Watch the video `example/test.mp4` (created by `ppt_presenter`)
 
-[![Alt text](https://img.youtube.com/vi/kMCZuAwFOVI/0.jpg)](https://www.youtube.com/watch?v=kMCZuAwFOVI)
+* Install other dependencies
+
+- [`ffmpeg`](https://github.com/adaptlearning/adapt_authoring/wiki/Installing-FFmpeg)
+- libreoffice
+- poppler
+
+* Watch the video `example/test.mp4`
+

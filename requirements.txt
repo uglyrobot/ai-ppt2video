@@ -1,3 +1,8 @@
+# Install dependencies
+# libreoffice
+# poppler
+# ffmpeg
 pdf2image
-gTTS
 python-pptx
+openai
+requests
